@@ -12,15 +12,15 @@
 };
 
 &serdes_wiz4 {
-	status = "disabled";
+	status = "ok";
 };
 
 &mhdp {
-	status = "disabled";
+	status = "ok";
 };
 
 &dss {
-	status = "disabled";
+	status = "ok";
 };
 
 &ti_csi2rx0 {
