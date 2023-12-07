@@ -20,6 +20,7 @@ dtb-$(CONFIG_SOC_DRA7XX) += \
 	dra72-evm.dtb \
 	dra72-evm-revc.dtb \
 	dra76-evm.dtb \
+	k3-j721e-d3-rvp-board.dts \
 	dra7-evm.dtb
 
 # overlays

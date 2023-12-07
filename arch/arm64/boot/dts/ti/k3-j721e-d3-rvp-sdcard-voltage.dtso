@@ -1,0 +1,15 @@
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * SD-card voltage selector
+ *
+ * Copyright (C) 2020 D3 Engineering - http://d3engineering.com
+ */
+
+/dts-v1/;
+/plugin/;
+
+&main_sdhci1 {
+	/* UHS modes require 1v8 which does not work on rev 2.0 to 2.2 */
+	no-1-8-v;
+};
+

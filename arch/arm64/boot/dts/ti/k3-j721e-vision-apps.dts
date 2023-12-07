@@ -23,10 +23,6 @@
 	status = "disabled";
 };
 
-&main_i2c1 {
-	status = "disabled";
-};
-
 &ti_csi2rx0 {
 	status = "disabled";
 };

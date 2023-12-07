@@ -12,6 +12,11 @@
 #define PULLTYPESEL_SHIFT	(17)
 #define RXACTIVE_SHIFT		(18)
 
+#define DRV_STR_0		(0 << 19)
+#define DRV_STR_1		(1 << 19)
+#define DRV_STR_2		(2 << 19)
+#define DRV_STR_3		(3 << 19)
+
 #define PULL_DISABLE		(1 << PULLUDEN_SHIFT)
 #define PULL_ENABLE		(0 << PULLUDEN_SHIFT)
 
